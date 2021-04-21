@@ -1,5 +1,5 @@
 import React from 'react';
-import { FeatureContainer, FeatureButton } from 'FeatureElements';
+import { FeatureContainer, FeatureButton } from './FeatureElements';
 
 export const Feature = () => {
   return (
@@ -10,3 +10,5 @@ export const Feature = () => {
     </FeatureContainer>
   );
 };
+
+export default Feature;
