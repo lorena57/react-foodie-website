@@ -1,5 +1,11 @@
 import React from 'react';
-import { FaFacebook } from 'react-icons/fa';
+import {
+  FaFacebook,
+  FaInstagram,
+  FaYoutube,
+  FaTwitter,
+  FaLinkedin,
+} from 'react-icons/fa';
 import {
   FooterContainer,
   FooterWrap,
@@ -33,7 +39,7 @@ const Footer = () => {
                   aria-label="Instagram"
                   rel="noopener noreferrer"
                 >
-                  <FaFacebook />
+                  <FaInstagram />
                 </SocialIconLink>
                 <SocialIconLink
                   href="/"
@@ -41,7 +47,7 @@ const Footer = () => {
                   aria-label="Facebook"
                   rel="noopener noreferrer"
                 >
-                  <FaFacebook />
+                  <FaYoutube />
                 </SocialIconLink>
                 <SocialIconLink
                   href="/"
@@ -49,7 +55,7 @@ const Footer = () => {
                   aria-label="Facebook"
                   rel="noopener noreferrer"
                 >
-                  <FaFacebook />
+                  <FaTwitter />
                 </SocialIconLink>
               </SocialIcons>
             </SocialMediaWrap>
